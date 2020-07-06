@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="fandango.css"?>
+<theaters>
+	<heading>FANDANGO </heading>
+	<theater id="1">
+		<tnmad>
+			<tname>Movies 10</tname>
+			<address> 2613 West Henrietta Road, Rochester, NY  14623 </address>
+		</tnmad>
+		<titles>
+			<mnamestit>Movie name</mnamestit>
+			<ratingtit>Rating</ratingtit>
+			<durationtit>Duration</durationtit>
+			<stimestit>Timings</stimestit>
+		</titles>
+		<movie id="1">
+			<mname>Ocean's 8 </mname>
+			<rating>PG-13</rating>
+			<duration> 1 hr 50 min </duration>
+			<stimes>1:30p | 4:10p</stimes>
+		</movie>
+		<movie id="2">
+			<mname>Skyscraper  </mname>
+			<rating>PG-13</rating>
+			<duration> 1 hr 42 min</duration>
+			<stimes>6:40p  </stimes>
+		</movie>
+		<movie id="3">
+			<mname>Incredibles 2 </mname>
+			<rating>PG</rating>
+			<duration> 1 hr 58 min</duration>
+			<stimes>12:00p | 2:45p | 5:30p | 8:15p  </stimes>
+		</movie>
+	</theater>
+	<theater id="2">
+		<tnmad>
+			<tname>Regal Culver Ridge Plaza 16 </tname>
+			<address> 2255 Ridge Road East, Irondequoit, NY  14622  </address>
+		</tnmad>
+		<titles>
+			<mnamestit>Movie name</mnamestit>
+			<ratingtit>Rating</ratingtit>
+			<durationtit>Duration</durationtit>
+			<stimestit>Timings</stimestit>
+		</titles>
+		<movie id="1">
+			<mname>A Simple Favor </mname>
+			<rating>R</rating>
+			<duration> 1 hr 56 min </duration>
+			<stimes>1:20p | 4:15p | 7:20p | 10:05p</stimes>
+		</movie>
+		<movie id="2">
+			<mname>The Nun (2018)  </mname>
+			<rating>R</rating>
+			<duration> 1 hr 36 min</duration>
+			<stimes>2:00p | 4:25p | 6:50p | 9:15p  </stimes>
+		</movie>
+		<movie id="3">
+			<mname>White Boy Rick </mname>
+			<rating>R</rating>
+			<duration> 1 hr 51 min</duration>
+			<stimes>1:35p | 4:35p | 7:25p | 10:15p</stimes>
+		</movie>
+	</theater>
+</theaters>

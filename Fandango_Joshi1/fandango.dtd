@@ -1,0 +1,19 @@
+<!ELEMENT theaters (heading,theater+)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT theater (tnmad, titles,movie+)>
+<!ELEMENT tnmad (tname,address)>
+<!ELEMENT tname (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT titles (mnamestit,ratingtit,durationtit,stimestit)>
+<!ELEMENT mnamestit (#PCDATA)>
+<!ELEMENT ratingtit (#PCDATA)>
+<!ELEMENT durationtit (#PCDATA)>
+<!ELEMENT stimestit (#PCDATA)>
+<!ELEMENT movie (mname,rating,duration,stimes)>
+<!ELEMENT mname (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT stimes (#PCDATA)>
+<!ATTLIST theater id CDATA #REQUIRED>
+<!ATTLIST movie id CDATA #REQUIRED>
+
