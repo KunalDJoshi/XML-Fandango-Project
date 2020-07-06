@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="fandango.css"?>
+<!DOCTYPE theaters SYSTEM "fandango.dtd">
 <theaters>
 	<heading>FANDANGO </heading>
 	<theater id="1">
